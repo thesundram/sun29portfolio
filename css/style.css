@@ -161,6 +161,9 @@ ul {
 
 .btn:hover {
     transform: scale(1.05);
+    background-color: #fff;
+    color: var(--skin-color);
+    border: 1px solid var(--skin-color);
 }
 
 .shadow-dark {
@@ -387,6 +390,34 @@ h3.my-profession {
     margin: auto;
     border-radius: 5px;
     height: 400px;
+}
+
+.home .resume-btn{
+    display: flex;
+    gap: 15px;
+}
+
+.home .social-icons {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+}
+.home .social-icons .social-icon {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.home .social-icons .social-icon:hover {
+    background-color: #fff;
+    color: var(--skin-color);
 }
 
 /* About */
