@@ -416,8 +416,10 @@ h3.my-profession {
     transition: all 0.3s ease;
 }
 .home .social-icons .social-icon:hover {
+    transform: scale(1.05);
     background-color: #fff;
     color: var(--skin-color);
+    border: 1px solid var(--skin-color);
 }
 
 /* About */
